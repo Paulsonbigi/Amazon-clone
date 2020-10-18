@@ -1,0 +1,142 @@
+.header_container{
+    background-color: #131921;
+    display: flex;
+    position: sticky;
+    z-index: 100;
+    top: 0px;
+    align-items: center;
+}
+.header_logo{
+    width: 100px;
+    object-fit: contain;
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+@media(max-width: 769px){
+    .header_logo{
+        width: 80px;
+    }
+}
+.header_search{
+    flex: 1;
+    display: flex;
+}
+.header_input{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+.header_searchIcon{
+    background-color: #cd9842;
+    height: 20.4px !important;
+    padding: 5px;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_link{
+    text-decoration: none;
+    color: white;
+}
+.header_option, .header_basket{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.option_lineOne{
+    font-size: 10px;
+}
+.option_lineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+.header_basket{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.shopping_basket{
+    padding-right: 5px;
+}
+.basket_count{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.side_bar{
+    display: none;
+}
+@media (max-width: 670px){
+    .header_container{
+        width: 100%;
+    }
+    .side_bar{
+        position: fixed;
+        top: -120%;
+        left: 0;
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        z-index: 99;
+        opacity: 0.97;
+        transform: 0.5s linear;
+        height: 100vh;
+        transition: 1s ease-in-out;
+        background-color: #131921;
+    }
+    .show{
+        top: 0%;
+    }
+    .side_bar .header_nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 85px;
+    }
+    .header_option{
+        margin-bottom: 30px;
+    }
+    .menu{
+        display: fixed;
+    }
+    .first{
+        display: none;
+    }
+}
+
+.menu{
+    display: none;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-around;
+    width: 20px;
+}
+.menu .bar{
+    width: 20px;
+    height: 3px;
+    margin-bottom: 3px;
+    background-color: white;
+}
+@media (max-width: 670px){
+    .menu{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+

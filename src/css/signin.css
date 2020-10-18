@@ -1,0 +1,66 @@
+.sign_container{
+    background-color: #fff;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.sign_container img{
+    width: 80px;
+    margin-left: 38%;
+    padding-bottom: 20px;
+}
+@media(max-width: 450px){
+    .sign_container{
+        width: 280px;
+    }
+    .sign_container img{
+        margin-left: 38%;
+        width: 70px;
+    }
+}
+.signin_container{
+    padding: 20px;
+    box-shadow: 0px 0px 2px 3px rgb(221, 221, 221);
+}
+.signin_container h5{
+    font-size: 25px;
+    font-weight: normal;
+}
+.passwordheader{
+    margin-top: 10px;
+}
+.signin_container h6{
+    padding-bottom: 5px;
+}
+.signin_container input{
+    padding: 10px;
+    border: 1px solid #f0c14b;
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.signin_container Button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 6px;
+    font-size: 12px;
+    font-weight: 800;
+    background-color: #f0c14b;
+    border: 1px solid ;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+.signin_container p{
+    font-size: 10px;
+    font-weight: 400;
+}
+.signin_container .signup{
+    background-color: rgb(224, 224, 224);
+    border-color: #5f5f5f #d1d1d1 #9e9e9d;
+}
+a{
+    text-decoration: none;
+}
